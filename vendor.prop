@@ -140,9 +140,6 @@ vendor.display.smomo_game_support=0
 vendor.display.use_layer_ext=1
 vendor.display.use_smooth_motion=1
 
-# Display post-processing
-debug.sf.disable_client_composition_cache=1
-
 # Dolby
 vendor.audio.dolby.ds2.enabled=false
 vendor.audio.dolby.ds2.hardbypass=false
@@ -168,7 +165,8 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 vendor.gatekeeper.disable_spu=true
 
 # Graphics
-debug.sf.disable_backpressure=1
+debug.sf.enable_gl_backpressure=1
+debug.sf.disable_client_composition_cache=1
 debug.sf.enable_advanced_sf_phase_offset=1
 debug.sf.enable_gl_backpressure=1
 debug.sf.high_fps_early_gl_phase_offset_ns=-2000000
